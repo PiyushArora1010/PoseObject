@@ -4,8 +4,9 @@
 This README provides detailed steps, instructions, and observations for editing the pose of an object in the scene using segmentation, inpainting, and novel view generation techniques.
 
 ## How to Run
-Task 1: Once in the Avataar folder, execute the following command: python run.py -i <path to image> -c <user prompt for class> -tk 1
-Task 2: Once in the Avataar folder, execute the following command: python run.py -po <polar angle> -az <azimuth angle> -i <path to image> -c <user prompt for class>
+Once in the PoseObject folder,
+Task 1: Execute the following command: python run.py -i <path to image> -c <user prompt for class> -tk 1
+Task 2: Execute the following command: python run.py -po <polar angle> -az <azimuth angle> -i <path to image> -c <user prompt for class>
 
 ## Steps Followed for the Assignment
 
