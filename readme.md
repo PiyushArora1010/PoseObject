@@ -4,8 +4,8 @@
 This README provides detailed steps, instructions, and observations for editing the pose of an object in the scene using segmentation, inpainting, and novel view generation techniques.
 
 ## How to Run
-Task 1: Once in the Avatar folder, execute the following command: python run.py -i <path to image> -c <user prompt for class> -tk 1
-Task 2: Once in the Avatar folder, execute the following command: python run.py -po <polar angle> -az <azimuth angle> -i <path to image> -c <user prompt for class>
+Task 1: Once in the Avataar folder, execute the following command: python run.py -i <path to image> -c <user prompt for class> -tk 1
+Task 2: Once in the Avataar folder, execute the following command: python run.py -po <polar angle> -az <azimuth angle> -i <path to image> -c <user prompt for class>
 
 ## Steps Followed for the Assignment
 
@@ -45,6 +45,6 @@ Task 2: Once in the Avatar folder, execute the following command: python run.py 
 4. The inpainting pipeline lacked consistency, with results varying across runs and seeds. Different prompts were tested to improve results, but the pipeline remained unpredictable.
 
 ## Ways to Improve
-1. Employ a more robust inpainting pipeline to enhance consistency. Train a custom model for inpainting tasks.
+1. Employ a more robust inpainting pipeline to enhance consistency.
 2. Use Clip Text feaures for prompt to SAM model to improve segmentation results.
 3. Experiment with different kernel sizes for dilation and erosion to refine segmentation masks."# PoseObject" 
